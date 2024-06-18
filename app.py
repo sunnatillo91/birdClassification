@@ -5,9 +5,6 @@ import plotly
 import plotly.express as px
 import platform
 
-# plt = platform.system()
-# if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
-
 temp = pathlib.PosixPath
 pathlib.PosixPath = temp
 
@@ -18,7 +15,7 @@ st.markdown("## Ushbu model Sunnatillo Xayrullayev tomonidan yaratilgan va quyid
 st.markdown("### (Burgut-Eagle, Olaqarg'a-Magpie, Qizilishton-Woodpecker, Chumchuq-Sparrow)")
 
 # rasmni joylash
-file = st.file_uploader("Rasm yuklash", type=['png', 'jpg', 'gif', 'svg'])
+file = st.file_uploader("Ro'yxatda keltirilgan qushlardan birining rasmini yuklang", type=['png', 'jpg', 'gif', 'svg'])
 if file:
     st.image(file)
     # PIL convert
