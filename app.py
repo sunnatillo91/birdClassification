@@ -13,8 +13,9 @@ pathlib.PosixPath = temp
 
 
 #title
-st.title("Qushlarni rasmiga ko'ra klassifikatsiya qiluvchi model (Eagle, Magpie, Woodpecker, Sparrow)")
+st.title("Qushlarni rasmiga ko'ra klassifikatsiya qiluvchi model ")
 st.markdown("## Ushbu model Sunnatillo Xayrullayev tomonidan yaratilgan va quyidagi 4 ta turdagi qushlarni klassifikatsiya qilish uchun mo'ljallangan")
+st.markdown("### (Eagle, Magpie, Woodpecker, Sparrow)")
 
 # rasmni joylash
 file = st.file_uploader("Rasm yuklash", type=['png', 'jpg', 'gif', 'svg'])
