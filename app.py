@@ -6,7 +6,7 @@ import plotly.express as px
 # import platform
 from pathlib import Path
 
-temp = pathlib.WindowsPath
+temp = pathlib.PosixPath
 pathlib.PosixPath = temp
 
 
