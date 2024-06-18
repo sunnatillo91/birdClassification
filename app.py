@@ -3,11 +3,13 @@ from fastai.vision.all import *
 import pathlib
 import plotly
 import plotly.express as px
-# import platform
-from pathlib import Path
+import platform
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = temp
+plt = platform.system()
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = temp
 
 
 #title
