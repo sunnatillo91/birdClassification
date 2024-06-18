@@ -4,8 +4,9 @@ import pathlib
 import plotly
 import plotly.express as px
 # import platform
+from pathlib import Path
 
-temp = pathlib.PosixPath
+temp = pathlib.WindowsPath
 pathlib.PosixPath = temp
 
 
