@@ -15,7 +15,7 @@ st.markdown("## Ushbu model Sunnatillo Xayrullayev tomonidan yaratilgan va quyid
 st.markdown("### (Burgut-Eagle, Olaqarg'a-Magpie, Qizilishton-Woodpecker, Chumchuq-Sparrow)")
 
 # rasmni joylash
-file = st.file_uploader("Ro'yxatda keltirilgan qushlardan birining rasmini yuklang", type=['png', 'jpg', 'gif', 'svg'])
+file = st.file_uploader("Yuqoridagi ro'yxatda keltirilgan qushlardan birining rasmini yuklang", type=['png', 'jpg', 'gif', 'svg'])
 if file:
     st.image(file)
     # PIL convert
